@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['fracture']
+
+roboflow:
+  workspace: bone-fracture-du9uv
+  project: three-ogwgy
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bone-fracture-du9uv/three-ogwgy/dataset/1
